@@ -60,7 +60,8 @@ const Hero = () => {
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
           className="absolute bottom-[0%] right-[5%] w-[600px] h-[600px] bg-purple-600/30 blur-[150px] rounded-full" 
         />
-        <div className="absolute inset-0 bg-[url('')] opacity-20 mix-blend-overlay"></div>
+        
+        <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mix-blend-overlay"></div>
       </div>
 
       <div className="max-w-7xl w-full grid lg:grid-cols-2 gap-16 items-center z-10">
@@ -79,9 +80,9 @@ const Hero = () => {
               <div className="w-full h-full bg-slate-950 rounded-full overflow-hidden border-4 border-slate-800 relative shadow-inner">
                 <div className="absolute inset-0 bg-gradient-to-tr from-cyan-500/20 to-purple-500/20 z-10 group-hover:opacity-0 transition-opacity duration-500"></div>
                 <img 
-                  src="https://via.placeholder.com/800x800/0f172a/06b6d4?text=YB" 
+                  src="https://i.pinimg.com/736x/67/b8/48/67b84810c9fe37eb027413a910a71b87.jpg" 
                   alt="Yogesh Banger"
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-out scale-110 group-hover:scale-100"
+                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-out scale-110 group-hover:scale-100"
                 />
               </div>
             </div>
