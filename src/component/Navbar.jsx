@@ -37,7 +37,7 @@ export default function Navbar() {
     },
     { 
       icon: <RiYoutubeFill size={20} />, 
-      href: "https://youtube.com/yogeshbanger11", 
+      href: "https://youtube.com/@yogeshbanger11?si=Ymo4QiGiuZ0YF1Ug", 
       color: "group-hover:text-[#ff0000]",
       bg: "hover:border-[#ff0000]/50 hover:bg-[#ff0000]/10"
     },

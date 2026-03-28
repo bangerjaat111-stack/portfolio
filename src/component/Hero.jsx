@@ -60,7 +60,7 @@ const Hero = () => {
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
           className="absolute bottom-[0%] right-[5%] w-[600px] h-[600px] bg-purple-600/30 blur-[150px] rounded-full" 
         />
-        <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('')] opacity-20 mix-blend-overlay"></div>
       </div>
 
       <div className="max-w-7xl w-full grid lg:grid-cols-2 gap-16 items-center z-10">
