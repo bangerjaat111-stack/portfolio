@@ -25,7 +25,7 @@ export default function Navbar() {
   const socialLinks = [
     { 
       icon: <RiLinkedinBoxFill size={20} />, 
-      href: "https://linkedin.com/in/yogeshbanger", 
+      href: "https://www.linkedin.com/in/yogesh-banger-9a9695366/?skipRedirect=true", 
       color: "group-hover:text-[#0077b5]",
       bg: "hover:border-[#0077b5]/50 hover:bg-[#0077b5]/10"
     },

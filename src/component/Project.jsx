@@ -10,9 +10,9 @@ const PersonalDetails = () => {
   const [status, setStatus] = useState('idle'); // 'idle' | 'submitting' | 'success'
 
   const inputFields = [
-    { id: "name", label: "Your Name", icon: <User size={18} />, type: "text", placeholder: "John Doe" },
-    { id: "father", label: "Father's Name", icon: <Users size={18} />, type: "text", placeholder: "Robert Doe" },
-    { id: "email", label: "Email Address", icon: <Mail size={18} />, type: "email", placeholder: "john@example.com" },
+    { id: "name", label: "Your Name", icon: <User size={18} />, type: "text", placeholder: "enter your name" },
+    { id: "father", label: "Father's Name", icon: <Users size={18} />, type: "text", placeholder: "enter your father name" },
+    { id: "email", label: "Email Address", icon: <Mail size={18} />, type: "email", placeholder: "enter a email id" },
     { id: "phone", label: "Phone Number", icon: <Phone size={18} />, type: "tel", placeholder: "+91 00000-00000" },
     { id: "address", label: "Address", icon: <MapPin size={18} />, type: "text", placeholder: "Kaithal, Haryana" },
   ];
