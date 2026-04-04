@@ -80,9 +80,9 @@ const Hero = () => {
               <div className="w-full h-full bg-slate-950 rounded-full overflow-hidden border-4 border-slate-800 relative shadow-inner">
                 <div className="absolute inset-0 bg-gradient-to-tr from-cyan-500/20 to-purple-500/20 z-10 group-hover:opacity-0 transition-opacity duration-500"></div>
                 <img 
-                  src="https://i.pinimg.com/736x/67/b8/48/67b84810c9fe37eb027413a910a71b87.jpg" 
+                  src="https://res.cloudinary.com/dsmgxutev/image/upload/v1775312757/WhatsApp_Image_2026-04-04_at_7.55.12_PM_zsvghq.jpg" 
                   alt="Yogesh Banger"
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-out scale-110 group-hover:scale-100"
+                  className="w-full h-145 object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-out scale-110 group-hover:scale-100"
                 />
               </div>
             </div>
